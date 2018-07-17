@@ -1,5 +1,6 @@
 body {
   background-image: url("https://drive.google.com/uc?export=download&id=1us1RH64A938mY6JuGk9OiEOX_r4MB5ig");
+  font-size: 12px;
 }
 
 p {
@@ -28,6 +29,8 @@ h2 {
   color: white;
   font-family:Rajdhani, sans-serif;
 }
+
+
 
 button {
   margin: 20px;
@@ -60,7 +63,7 @@ button:hover {
 .navbar-brand {
   padding-top: 25px;
   padding-bottom: 40px;
-  font-size: 37px;
+  font-size: 2em;
   font-weight: bold;
   font-family: 'Caveat', cursive;
 }
@@ -134,19 +137,31 @@ button:hover {
   width: 75%;
 }
 
-.portfolio-row1 .portfolio-row2 {
-  display: inline-block;  
+.portfolio h3 {
+  font-size: 20px;
+  font-family:Rajdhani, sans-serif;
 }
 
-.portfolio-item {
+/* .portfolio p {
+  padding-left: 30px;
+  font-size: 38px;
+  font-family:Rajdhani, sans-serif;
+} */
+
+/* .portfolio-row1 .portfolio-row2 {
+  display: inline-block;  
+} */
+
+/* .portfolio-item {
   float: left;
   display: inline-block;
-}
+} */
 
 .well {
   background-color: #00B4CC;
   border-color: #005F6B;
   border-radius: 10%;
+  height: 370px;
 }
 
 .portfolio img {

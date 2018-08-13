@@ -33,7 +33,7 @@ p {
   font-size: 1.4em;
   line-height: 1.7em;
   font-family: 'Poiret One', cursive;
-  color: PaleTurquoise;
+  color: #f8fbfb;
 }
 
 a {
@@ -45,10 +45,17 @@ a {
   display: grid;
 }
 
+.innerLink {
+ margin-top: -90px;
+ padding-top: 90px;
+}
+
+
 /* ---------- THE NAVIGATION SECTION ---------- */
 
 .nav {  
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
 }
@@ -121,8 +128,9 @@ a {
 /* ---------- THE ABOUT SECTION ---------- */
 
 .about {
-  background: #00B4CB;
-  border: 3px solid #015F6B;
+  background: #005f6b;
+  opacity: 0.9;
+  border: 3px solid #248794;
   padding: 25px;
   margin: 7em;
   border-radius: 10px;
@@ -158,8 +166,9 @@ a {
 }
 
 .portfolio-item {
-  background: #00B4CB;
-  border: 3px solid #015F6B;
+  background: #005f6b;
+  border: 3px solid #248794;
+  opacity: 0.9;
   padding: 10px;
   border-radius: 10px;
   max-width: 350px;
@@ -176,7 +185,6 @@ a {
 }
 
 .portfolio p {
-  color: #015F6B;
   padding: 10px;
   font-size: 1.2em;
   line-height: 1.3em;

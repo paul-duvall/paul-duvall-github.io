@@ -28,6 +28,13 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   padding-left: 30px;
   font-size: 1.4em;
@@ -180,14 +187,11 @@ a {
   padding: 15px;
 }
 
-.portfolio h3 {
-  color: #015F6B;
-}
-
 .portfolio p {
-  padding: 10px;
+  padding: 5px;
   font-size: 1.2em;
   line-height: 1.3em;
+  text-align: left;
 }
 
 /* ---------- THE CONTACT SECTION ---------- */
